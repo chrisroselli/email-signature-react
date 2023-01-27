@@ -37,7 +37,7 @@ const DetailsForm = () => {
           <FormLabel htmlFor="company-name" mb="0">
             Company Name
           </FormLabel>
-          <Input id="company-name" type="text" placeholder="Threshold Media" variant="flushed" value={ctx.companyNameValue} onChange={(e) => ctx.fetchCompanyName(e.target.value)} />
+          <Input id="company-name" type="text" placeholder="Company Name" variant="flushed" value={ctx.companyNameValue} onChange={(e) => ctx.fetchCompanyName(e.target.value)} />
         </FormControl>
 
         <FormControl>
@@ -51,14 +51,14 @@ const DetailsForm = () => {
           <FormLabel htmlFor="website-url" mb="0">
             Website URL
           </FormLabel>
-          <Input id="website-url" type="text" placeholder="www.thresholdmedia.com" variant="flushed" value={ctx.websiteValue} onChange={(e) => ctx.fetchWebsite(e.target.value)} />
+          <Input id="website-url" type="text" placeholder="www.example.com" variant="flushed" value={ctx.websiteValue} onChange={(e) => ctx.fetchWebsite(e.target.value)} />
         </FormControl>
 
         <FormControl>
           <FormLabel htmlFor="email" mb="0">
             Email Address
           </FormLabel>
-          <Input id="email" type="email" placeholder="hello@thresholdmedia.com" variant="flushed" value={ctx.emailValue} onChange={(e) => ctx.fetchEmail(e.target.value)} />
+          <Input id="email" type="email" placeholder="hello@example.com" variant="flushed" value={ctx.emailValue} onChange={(e) => ctx.fetchEmail(e.target.value)} />
         </FormControl>
 
         <FormControl>
