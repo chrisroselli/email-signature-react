@@ -1,0 +1,72 @@
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+div, section, main {
+  position: relative;
+}
+picture,
+source,
+img {
+  display: block;
+}
+select {
+  cursor: pointer;
+}
+#root {
+  width: 100vw;
+  overflow: hidden;
+}
+@media (min-width: 1024px) {
+  #root {
+    height: 100vh;
+  }
+}
+.nav_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  height: 80px;
+}
+.nav_grid_item {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.chakra-ui-light .nav_grid_item.active {
+  background-color: var(--chakra-colors-white);
+}
+.chakra-ui-dark .nav_grid_item.active {
+  background-color: var(--chakra-colors-gray-500);
+}
+.template__image {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  transition: opacity 0.3s ease-in-out;
+}
+.template__image.click {
+  opacity: 0.5;
+}
+.template__badge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 260px;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.template__badge.click {
+  opacity: 1;
+}
+option {
+  color: #000;
+}
