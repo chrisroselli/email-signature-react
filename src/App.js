@@ -90,7 +90,10 @@ function App() {
                 </Box>
               </Box>
 
-              <Text fontSize="xs" position={{ lg: "absolute" }} bottom={{ lg: "10px" }} right={{ lg: "10px" }} m={{ base: '10px', lg: '0'}}>This app was built with React, as a learning project.</Text>
+              <Text fontSize="xs" position={{ lg: "absolute" }} bottom={{ lg: "10px" }} right={{ lg: "10px" }} m={{ base: '10px', lg: '0'}}>© {new Date().getFullYear()} {' '}
+                <a href="https://www.treehousemarketing.com" target="_blank">
+                  Treehouse Marketing
+                </a></Text>
 
             </UploadContextProvider>
           </CustomizeContextProvider>

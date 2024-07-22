@@ -216,19 +216,6 @@ const TemplateOne = () => {
                           ) : (
                             ''
                           )}
-                          <table cellPadding="0" cellSpacing="0" style={{ verticalAlign: '-webkit-baseline-middle', fontSize: 'medium', fontFamily: setFontFamily, width: '100%', border: '0px' }}>
-                            <tbody>
-                              <tr>
-                                <td height="10" style={{ border: '0px' }}></td>
-                              </tr>
-                              <tr>
-                                <td height="1" width="100%" style={{ width: '100%', height: '1px', borderTop: '0', borderLeft: '0', borderRight: '0', borderBottom: '1px solid', borderBottomColor: setThemeColor, display: 'block' }}></td>
-                              </tr>
-                              <tr>
-                                <td height="10" style={{ border: '0px' }}></td>
-                              </tr>
-                            </tbody>
-                          </table>
                           <table cellPadding="0" cellSpacing="0" style={{ verticalAlign: '-webkit-baseline-middle', fontSize: 'medium', fontFamily: setFontFamily, textAlign: 'left', border: '0px' }}>
                             <tbody>
                               {officeNumber.length !== 0 ? (

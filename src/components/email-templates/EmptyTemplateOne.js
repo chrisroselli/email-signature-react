@@ -116,19 +116,6 @@ const EmptyTemplateOne = () => {
                     <p id="company_name" className="company_name font_props" style={{ margin: '0px', fontWeight: '500', color: '#000', fontSize: '14px', lineHeight: '22px', textAlign: 'center' }}>
                       Company Name
                     </p>
-                    <table cellPadding="0" cellSpacing="0" style={{ verticalAlign: '-webkit-baseline-middle', fontSize: 'medium', fontFamily: 'Arial', width: '100%' }}>
-                      <tbody>
-                        <tr>
-                          <td height="10"></td>
-                        </tr>
-                        <tr>
-                          <td height="1" className="border-btm-theme" style={{ width: '100%', borderBottom: '1px solid #6D7FE2', borderLeft: 'none', display: 'block' }}></td>
-                        </tr>
-                        <tr>
-                          <td height="10"></td>
-                        </tr>
-                      </tbody>
-                    </table>
                     <table cellPadding="0" cellSpacing="0" style={{ verticalAlign: '-webkit-baseline-middle', fontSize: 'medium', fontFamily: 'Arial', textAlign: 'left' }}>
                       <tbody>
                         <tr height="24" style={{ verticalAlign: 'middle' }}>

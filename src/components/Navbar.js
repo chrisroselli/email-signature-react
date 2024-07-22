@@ -21,10 +21,10 @@ const Navbar = () => {
         borderBottom="1px solid #BBB"
       >
         <a href="/">
-          <Heading as="h1" fontSize="xl">Email Signature Generator | Web App</Heading>
+          <Heading as="h1" fontSize="xl">Treehouse Email Signature Generator</Heading>
         </a>
         <Box>
-          <a href="https://github.com/robbiecren07/email-signature-react" target="_blank" rel="noreferrer">
+          <a href="https://github.com/chrisroselli/email-signature-react" target="_blank" rel="noreferrer">
             <Icon as={GitHubIcon} w={6} h={6} mr="20px" />
           </a>
           <ColorModeSwitcher justifySelf="flex-end" />
